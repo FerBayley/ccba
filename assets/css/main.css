@@ -1,0 +1,344 @@
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hero {
+    height: 700px;
+    background: url(../../assets/images/hero.png) no-repeat center
+    center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFF;
+}
+.hero h2 {
+    font-family: 'Alata', sans-serif;
+    font-size: 50px;
+}
+.header {
+    background-color: #24294E;
+    height: auto;
+}
+.footer {
+    background-color: #24294E;
+    height: auto;
+    color: #FFF;
+    padding: 15px 0 15px 0;
+}
+.footer a {
+    font-size: 14px;
+    line-height: 25px;
+    color: #FFF;
+}
+.navbar {
+    background-color: #24294E!important;
+    color: #FFF!important;
+    padding: 20px 0 20px 0;
+}
+.navbar a {
+    color: #FFF!important;
+    font-size: 14px;
+    font-family: 'Alata', sans-serif;
+}
+.contenidoPrincipal {
+    height: auto;
+}
+.titulos {
+    margin-top: 50px;
+    font-family: 'Alata', sans-serif;
+    font-size: 23px;
+    color: #24294E;
+    margin-bottom: 15px;
+}
+.texto {
+    font-size: 15px;
+    line-height: 27px;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+.textoLegal {
+    font-size: 13px;
+    margin-top: 30px;
+}
+.infoAlPaciente {
+    height: 700px;
+    background: url(../../assets/images/informacion-al-paciente.png) no-repeat center
+    center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFF;
+}
+.columnaCompleta {
+    margin: 0;
+    padding: 0;
+}
+.espacioColumnas {
+    padding: 0 25px 0 25px;
+}
+.tarjeta-info-paciente {
+    margin-bottom: 50px;
+    color: #000;
+}
+.btnDesplegar {
+    color: #000;
+}
+.map {
+    height: 100vh;
+}
+.infoComplementariaDeFormulario {
+    margin-top: 60px;
+}
+.infoComplementariaDeFormulario h2 {
+    font-size: 18px;
+    font-family: 'Alata', sans-serif;
+}
+.infoComplementariaDeFormulario p {
+    font-size: 14px;
+    font-family: 'Alata', sans-serif;
+    color: #333;
+}
+.instagram {
+    font-size: 20px;
+}
+.fa-facebook {
+    font-size: 20px;
+}
+.fa-linkedin {
+    font-size: 20px;
+}
+.avisoLegal {
+    margin-top: 30px;
+    font-size: 13px;
+}
+.redes {
+    text-align: right;
+}
+.redes a {
+    padding: 0 5px 0 5px;
+}
+form input {
+    height: 55px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+textarea {
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+}
+.btnEnviar {
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    background-color: #24294E;
+    color: #FFF;
+    font-size: 18px;
+}
+.especialidades {
+    height: 700px;
+    background: url(../../assets/images/imagen-especialidades.png) no-repeat center
+    center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFF;
+}
+.cardEspecialidades {
+    margin-bottom: 10px;
+    color: #000;
+}
+.staff {
+    height: auto;
+    padding: 30px 0 30px 0;
+}
+.staff img {
+    height: auto;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.staff h2 {
+    font-size: 18px;
+    font-family: 'Alata', sans-serif;
+}
+.staff p {
+    font-family: 'Open Sans', sans-serif;   
+    font-size: 14px;
+    color: grey;
+}
+.staff h3 {
+    font-family: 'Alata', sans-serif;
+    font-size: 14px;
+}
+.colImg {
+    height: auto;
+}
+.btnLinkedin {
+    border: none;
+    width: 100%;
+    margin-bottom: 5px;
+    height: 40px;
+    background-color: #0072B1;
+    color: #FFF;
+    font-size: 15px;
+    font-family: 'Alata', sans-serif;
+}
+.btnLinkedin:hover {
+    background-color: #0583C9;
+}
+.btnEmail {
+    border: solid 1px #000;
+    width: 100%;
+    margin-bottom: 5px;
+    height: 40px;
+    color: #000;
+    font-size: 15px;
+    background-color: #FFF;
+    font-family: 'Alata', sans-serif;
+}
+.btnEmail:hover {
+    background-color: honeydew;
+}
+.division {
+    margin-bottom: 50px;
+}
+.quienesSomos {
+    height: 700px;
+    background: url(../../assets/images/imagen-quienes-somos.png) no-repeat center
+    center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFF;
+}
+.callToAction {
+    border: solid 1px #FFF;
+    background-color: transparent;
+    color: #FFF;
+    height: 50px;
+    width: 30%;
+}
+.perfilProfesional {
+    height: 700px;
+    background: url(../../assets/images/perfil-profesional.png) no-repeat center
+    center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFF;
+}
+.btn-whatsapp {
+    display: block;
+    width: 80px;
+    height: 100px;
+    color: #fff;
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+    border-radius: 50%;
+    line-height: 80px;
+    text-align: center;
+    z-index: 999;
+  }
+  .btn-whatsapp:hover {
+    opacity: 0.5;
+  }
+.textoCallToAction {
+    position: absolute;
+    top: 250px;
+}
+
+
+/*
+
+   _____             .___.__        
+  /     \   ____   __| _/|__|____   
+ /  \ /  \_/ __ \ / __ | |  \__  \  
+/    Y    \  ___// /_/ | |  |/ __ \_
+\____|__  /\___  >____ | |__(____  /
+        \/     \/     \/         \/ 
+                           .__               
+  ________ __   ___________|__| ____   ______
+ / ____/  |  \_/ __ \_  __ \  |/ __ \ /  ___/
+< <_|  |  |  /\  ___/|  | \/  \  ___/ \___ \ 
+ \__   |____/  \___  >__|  |__|\___  >____  >
+    |__|           \/              \/     \/ 
+
+
+*/
+
+
+
+@media (min-width: 320px) {
+    .callToAction {
+        width: 100%;
+    }
+    .map {
+        width: 100%;
+    }
+}
+
+@media (min-width: 375px) {}
+
+@media (min-width: 360px) {}
+
+@media (min-width: 768px) {
+    .callToAction {
+        width: auto;
+    }
+}
+
+@media (min-width: 414px) {}
+
+@media (min-width: 425px) {}
+
+@media (min-width: 1024px) {
+    .btnLinkedin {
+        width: 100%;
+    }
+    .btnEmail {
+        width: 100%;
+
+    }
+    .callToAction {
+        width: auto;
+    }
+}
+
+@media (min-width: 1440px) {}
+
+@media (min-width: 2560px) {}
